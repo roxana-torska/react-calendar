@@ -1,0 +1,41 @@
+.border-style {
+    border: 1px solid rgba(0,0,0,0.15)
+}
+
+.tabs-style {
+  box-shadow: #b9b6b6 0px 0px 24px 0px;
+}
+
+.tabs-header-style {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  overflow: hidden
+}
+
+.tab-header-style {
+  color: #92BB24;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.tab-header-style:hover, .tab-header-style:link {
+    background-color: #92BB24;
+    color: white;
+}
+
+.active-tab-header-style, .tab-header-style {
+  background-color: #fff;
+  border-bottom: none
+}
+
+.side-header-style {
+  border-left: 1px solid rgba(0,0,0,0.15)
+}
+
+.tabs-content-style {
+  border-top: none;
+}

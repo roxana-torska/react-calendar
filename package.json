@@ -1,0 +1,71 @@
+{
+  "name": "react-redux-calendar",
+  "version": "0.1.0",
+  "description": "A React Application for Public Holidays in different Countries",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "@material-ui/lab": "^4.0.0-alpha.47",
+    "@material/textfield": "^5.1.0",
+    "@testing-library/jest-dom": "^4.1.0",
+    "@testing-library/react": "^9.2.0",
+    "axios": "^0.19.2",
+    "bulma": "^0.7.5",
+    "country-list": "^2.2.0",
+    "date-fns": "^2.11.0",
+    "env-cmd": "^10.1.0",
+    "history": "^3.0.0",
+    "history-router": "^2.4.0",
+    "hookrouter": "^1.2.3",
+    "loaders.css": "^0.1.2",
+    "local-storage": "^2.0.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
+    "react-loaders": "^3.0.1",
+    "react-redux": "^7.2.0",
+    "react-router": "^3.2.6",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.2",
+    "react-spinners-kit": "^1.9.1",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "semantic-ui-react": "^0.88.2",
+    "styled-components": "^5.0.1",
+    "styled-icons": "^10.2.1",
+    "underscore": "^1.9.2",
+    "use-force-update": "^1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:staging": "env-cmd -f .env.staging react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.1.1",
+    "redux-devtools": "^3.5.0"
+  }
+}
